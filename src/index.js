@@ -13,7 +13,7 @@ import './index.css';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <>
-      <BrowserRouter basename="/react-movie-finder-hub/">
+      <BrowserRouter basename="/movie-finder/" >
         <ConfigProvider colors={getRandomColors()}>
           <App />
         </ConfigProvider>
